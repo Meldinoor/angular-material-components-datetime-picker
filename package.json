@@ -1,0 +1,91 @@
+{
+  "_args": [
+    [
+      "@angular-material-components/datetime-picker@4.0.2",
+      "C:\\Users\\JonathanQuinth\\Documents\\Projects\\AzelioMES\\Src\\AzelioMes"
+    ]
+  ],
+  "_from": "@angular-material-components/datetime-picker@4.0.2",
+  "_id": "@angular-material-components/datetime-picker@4.0.2",
+  "_inBundle": false,
+  "_integrity": "sha512-G+3WMlcJZ7ada7z9rA3XobDhpVbiEWjmOZuwaeNSXXVye5pyfBr/4h0HuD8py9mDyKH6+68ZpwEytxd8/aJEdA==",
+  "_location": "/@angular-material-components/datetime-picker",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@angular-material-components/datetime-picker@4.0.2",
+    "name": "@angular-material-components/datetime-picker",
+    "escapedName": "@angular-material-components%2fdatetime-picker",
+    "scope": "@angular-material-components",
+    "rawSpec": "4.0.2",
+    "saveSpec": null,
+    "fetchSpec": "4.0.2"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@angular-material-components/datetime-picker/-/datetime-picker-4.0.2.tgz",
+  "_spec": "4.0.2",
+  "_where": "C:\\Users\\JonathanQuinth\\Documents\\Projects\\AzelioMES\\Src\\AzelioMes",
+  "author": {
+    "name": "HO Hong Quan"
+  },
+  "bugs": {
+    "url": "https://github.com/h2qutc/angular-material-components/issues"
+  },
+  "dependencies": {
+    "tslib": "^2.0.0"
+  },
+  "description": "Angular Material Datetime Picker",
+  "es2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/angular-material-components-datetime-picker.js",
+  "es2015": "fesm2015/angular-material-components-datetime-picker.js",
+  "esm2015": "esm2015/angular-material-components-datetime-picker.js",
+  "fesm2015_ivy_ngcc": "__ivy_ngcc__/fesm2015/angular-material-components-datetime-picker.js",
+  "fesm2015": "fesm2015/angular-material-components-datetime-picker.js",
+  "homepage": "https://github.com/h2qutc/angular-material-components",
+  "keywords": [
+    "angular",
+    "angular2",
+    "angular-material",
+    "angular material datetime picker",
+    "angular material time picker",
+    "datetime-picker",
+    "datepicker",
+    "timepicker",
+    "ngx-mat",
+    "ngx-mat-datetime-picker",
+    "ngx-material-datetime-picker",
+    "ngx-mat-timepicker"
+  ],
+  "license": "MIT",
+  "main": "bundles/angular-material-components-datetime-picker.umd.js",
+  "metadata": "angular-material-components-datetime-picker.metadata.json",
+  "module_ivy_ngcc": "__ivy_ngcc__/fesm2015/angular-material-components-datetime-picker.js",
+  "module": "fesm2015/angular-material-components-datetime-picker.js",
+  "name": "@angular-material-components/datetime-picker",
+  "peerDependencies": {
+    "@angular/platform-browser": "^10.0.2",
+    "@angular/common": "^10.0.2",
+    "@angular/core": "^10.0.2",
+    "@angular/forms": "^10.0.2",
+    "@angular/material": "~10.0.1",
+    "@angular/cdk": "~10.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/h2qutc/angular-material-components.git"
+  },
+  "sideEffects": false,
+  "typings": "angular-material-components-datetime-picker.d.ts",
+  "version": "4.0.2",
+  "__processed_by_ivy_ngcc__": {
+    "es2015": "10.1.0",
+    "fesm2015": "10.1.0",
+    "module": "10.1.0",
+    "typings": "10.1.0"
+  },
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by NGCC. This is not allowed.\\nPlease delete and rebuild the package, without compiling with NGCC, before attempting to publish.\\nNote that NGCC may have been run by importing this package into another project that is being built with Ivy enabled.\\n')\" && exit 1"
+  }
+}
