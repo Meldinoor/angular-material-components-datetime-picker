@@ -3971,6 +3971,7 @@
             this._dateAdapter = _dateAdapter;
             this._dir = _dir;
             this._document = _document;
+            this._defaultColor = 'primary';
             /**
              * The view that the calendar should start in.
              */
@@ -4049,6 +4050,16 @@
             }
             this._scrollStrategy = scrollStrategy;
         }
+        Object.defineProperty(NgxMatDatetimePicker.prototype, "defaultColor", {
+            get: function () {
+                return this._defaultColor;
+            },
+            set: function (value) {
+                this._defaultColor = value;
+            },
+            enumerable: false,
+            configurable: true
+        });
         Object.defineProperty(NgxMatDatetimePicker.prototype, "startAt", {
             /**
              * The date to open the calendar to initially.
